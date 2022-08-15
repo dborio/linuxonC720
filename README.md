@@ -1,15 +1,14 @@
 # linuxonC720
 Instructions on how to install your favorite flavor of Linux on an Acer C720 ChromeBook.
 
-Installing Real Ubuntu on the Acer Chromebook C720P
-This is my favorite solution--ChromeOS is completely removed and Ubunt 15.04 is running on the internal SSD.
-Removing the Write-Protect Screw
+Installing Real Linux on the Acer Chromebook C720P:
+This is my favorite solution for replacing ChromeOS and installing your favorite flavor of linux on the internal SSD.
+
+Removing the Write-Protect Screw:
 Remove all 13 screws from the bottom of the Chromebook. One of them is behind a sticker which you must remove, voiding your warranty.
-Then remove the write-protect screw, #7 in this photo:
+Then remove the write-protect screw, #7 in this photo: I got that image here: https://wiki.archlinux.org/index.php/Acer_C720_Chromebook#Locating_the_Write-Protect_Screw
 
-I got that image here: https://wiki.archlinux.org/index.php/Acer_C720_Chromebook#Locating_the_Write-Protect_Screw
-
-Entering Developer Mode
+Entering Developer Mode:
 Power on your Chromebook. ChromeOS starts.
 To enter developer mode press the following key combination:
 
@@ -27,11 +26,11 @@ Now it says "OS verification is OFF". After 20 seconds it beeps and says "Your s
 
 Now it says "OS verification is OFF". Press Ctrl+D to start ChromeOS.
 
-Enabling Developer BIOS and USB Boot
+Enabling Developer BIOS and USB Boot:
 Don't log in to ChromeOS.
 Press CTRL+ALT+=> (=> is the forward arrow where the F2 key would be on a PC, that is, above the "3" key).
 
-Log in as chronos. No password is needed.
+Log in: chronos (No password is needed.)
 
 Execute these commands:
 
@@ -42,6 +41,7 @@ sudo crossystem dev_boot_usb=1
 sudo crossystem dev_boot_legacy=1
 
 sudo /usr/share/vboot/bin/set_gbb_flags.sh 0x489
+
 This flashes the BIOS to enable SeaBIOS, which allows you to boot from USB.
 Hold down the power button to turn the Chromebook off.
 
