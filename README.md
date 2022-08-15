@@ -6,7 +6,7 @@ This is my favorite solution for replacing ChromeOS and installing your favorite
 
 Removing the Write-Protect Screw:
 Remove all 13 screws from the bottom of the Chromebook. One of them is behind a sticker which you must remove, voiding your warranty.
-Then remove the write-protect screw, #7 in this photo: I got that image here: https://wiki.archlinux.org/index.php/Acer_C720_Chromebook#Locating_the_Write-Protect_Screw
+Then remove the write-protect screw, #7 in this photo: I got that image here: (https://samsclass.info/128/proj/c720-chromebook-annotated-innards.png)
 
 Entering Developer Mode:
 Power on your Chromebook. ChromeOS starts.
