@@ -18,7 +18,7 @@ Esc + Refresh + Power Button
 
 Upon restart, a "scary screen" appears, saying "Chrome OS is missing or damaged".
 
-Press Ctrl+D. From now on you need to press Ctrl+D every time you launch ChromeOS, but soon that won't matter because you'll have Ubuntu instead.
+Press Ctrl+D. From now on you need to press Ctrl+D every time you launch ChromeOS, but soon that won't matter because you'll have your flavor of linux instead.
 
 It says "To turn OS verification OFF, press ENTER". Press Enter.
 
